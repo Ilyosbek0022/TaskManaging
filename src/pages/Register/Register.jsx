@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import "../../componentsforcss/login.css"
 const Login = () => {
   const [name,seTname]=useState("")
