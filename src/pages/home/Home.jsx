@@ -19,7 +19,13 @@ export default function Home() {
         <div className="left-sided">
 <div className="logo">
  
- <Link to={"/"}><img src="favicon.ico" alt="" className="glavavatar" /></Link>
+ <Link to={"/"}>
+      <img
+        src={"theme" ? "/favicon.ico" : "/light.png"}
+        alt=""
+        className="glavavatar"
+      />
+    </Link>
   
 
 </div>
