@@ -835,11 +835,12 @@ border:1px var(--border-color) ;
 @media(max-width:640px){
   
     .left-sided{
-    width: 100px;
+    width: 70px;
+    padding: 2px;
   }
 
   .right-sided{
-    margin-left: 120px; 
+    margin-left: 60px; 
   }
   .left-sided{
     max-width: 100px;
