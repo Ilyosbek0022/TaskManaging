@@ -19,16 +19,16 @@ export default function Home() {
         <div className="left-sided">
 <div className="logo">
  
- <img src="favicon.ico" alt="" className="glavavatar" />
-  <span>Task manage</span>
+ <Link to={"/"}><img src="favicon.ico" alt="" className="glavavatar" /></Link>
+  
 
 </div>
 <div className="links">
-  <Link to={"/Dashboardpage"}> <LuAirplay/>  <p>dashboard</p></Link>
-  <Link to={"/Login"}> <FaUser />  <p>Login</p></Link>
-  <Link to={"/Premium"}> <AiOutlineDingding />  <p>Proshka</p></Link>
-  <Link to={"/Register"}>  <FaUserPlus /> <p>Register</p></Link>
-  <Link to={"/Addnew"}> <MdAdd /><p>Add a task</p></Link>
+  <div className="Linkk"><Link  to={"/Dashboardpage"} > <div className="phots"><LuAirplay/></div>  <div className="thisn">Dashboard</div></Link></div>
+<div className="Linkk">  <Link className="Linkk" to={"/Login"}> <div className="phots"><FaUser />  </div><div className="thisn">Login</div></Link></div>
+  <div className="Linkk"><Link className="Linkk" to={"/Premium"}> <div className="phots"><AiOutlineDingding /> </div> <div className="thisn">Proshka</div></Link></div>
+  <div className="Linkk"><Link className="Linkk" to={"/Register"}>  <div className="phots"><FaUserPlus /></div> <div className="thisn">Register</div></Link></div>
+  <div className="Linkk"><Link className="Linkk" to={"/Addnew"}> <div className="phots"> <MdAdd /></div><div className="thisn">Add a task</div></Link></div>
 </div>
 <div className="account ">
   <ProfileCard/>

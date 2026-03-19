@@ -1,13 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from "react"
 
 const ProfileCard = () => {
-    const [user,setUser]=useState(null)
-    useEffect(()=>{
-const data =localStorage.getItem("user")
-if(data){
-  setUser(JSON.parse(data))
-}
-    },[])
+   
+    
   return (
     <div>
       <div className="profile profile-container">
@@ -15,10 +10,7 @@ if(data){
     
 <img src="/donk.jpg" alt="" />
   </div>
-  <div className="flex profile__details default-font">
-    <div className="profile__name ">{user?user.name:"user"}</div>
-    <div className="profile__number text-black">{user?user.email:"email"}</div>
-  </div>
+ 
 </div>
     </div>
   )

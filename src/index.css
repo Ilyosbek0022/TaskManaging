@@ -99,11 +99,6 @@ a {
   transition: all 0.25s ease;
 }
 
-.links a:hover {
-  background: rgba(255,255,255,0.08);
-  color: white;
-}
-
 
 
 .upgrade .card {
@@ -139,7 +134,7 @@ a {
   padding: 30px;
 }
 
-
+.profile
 
 header {
   display: flex;
@@ -177,20 +172,6 @@ header {
 
 
 
-select {
-  padding: 10px 20px;
-  border-radius: 30px;
-  border:var(--border-color);
-  color: var(--text-secondary);
-  background: white;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
-  transition: all 0.25s ease;
-}
-
-select:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
 
 
 
@@ -200,6 +181,7 @@ select:hover {
 }
 
 .profile__image {
+  
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -219,77 +201,8 @@ select:hover {
 
 .profile__number {
   color: #2563eb;
-}:root {
-
-    --bg-for-left:rgba(255, 255, 255, 0.344);
-  --bg-primary: #f0f4f8;
-  --bg-secondary: #ffffff;
-  --bg-tertiary: #f8fafc;
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-tertiary: #94a3b8;
-  --border-color: #e2e8f0;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.1);
-  --revenue-color: #8b5cf6;
-  --users-color: #3b82f6;
-  --conversion-color: #f59e0b;
-  --orders-color: #10b981;
-  --positive-color: #10b981;
-  --negative-color: #ef4444;
-  --gradient-purple: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-blue: linear-gradient(135deg, #667eea 0%, #3b82f6 100%);
-  --gradient-orange: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
-  --gradient-green: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-body.dark-mode {
-    
-    --bg-for-left:linear-gradient(180deg,#0f172a,#020617);
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --text-primary: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --text-tertiary: #64748b;
-  --border-color: #334155;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
-}
-select {
-  padding: 12px;
-  min-height: 2.2rem;
-  border: 2px solid lightgrey;
-  border-radius: 30px;
-  color: black;
-  background-color: white;
-  line-height: 1;
-  min-width: 20ch;
-  box-shadow: 0 0.4rem 0.4rem 0 #2221;
-  transition: 0.6s ease-in;
-}
-
-/* hover */
-select:hover {
-  transform: translateY(-0.2rem);
-  box-shadow: 0 0.8rem 0.8rem 0 #2222;
-  transition: 0.2s ease-out;
-}
-
-/* placeholder option tanlangan bo'lsa */
-select:has(option:checked:first-child) {
-  color: #3338;
-  text-transform: uppercase;
-}
-
-/* option reset */
-select:has(option:checked:first-child) option {
-  color: black;
-  text-transform: none;
-}.flex {
+.flex {
   display: flex;
 }
 .profile{
@@ -891,7 +804,7 @@ body.dark-mode .icon-moon {
   border: 1px solid var(--border-color);
   transition: var(--transition);
   animation: slideUp 0.6s ease-out backwards;
-  padding: 30px;
+  padding: 10px;
   color: var(--text-primary);
   max-width: 400px;
   width: fit-content;
@@ -919,28 +832,82 @@ border:1px var(--border-color) ;
 .right-sided{
   margin-left: 260px;
 }
-@media  (max-width:640px){
-  .left-sided{
-    max-width: 80px;
-    flex-wrap: wrap;
+@media(max-width:640px){
   
-  }
-  .links p{
-    display: none;
-  }
-  .logo span{
-    display: none;
-  }
-  .glavavatar{
-    display: none;
+    .left-sided{
+    width: 100px;
   }
 
-  
-  
   .right-sided{
-    margin-left: 120px;
+    margin-left: 120px; 
   }
-  .links{
-    margin-right: 150px;
+  .left-sided{
+    max-width: 100px;
   }
+  .main-background{
+    justify-content: center;
+  }
+.thisn{
+  display: none;
+}
+.phots svg{
+  width: 20px;
+  height: 20px;
+}
+.logo img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+.left-sided{
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+}
+.phots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+}
+.Linkk{
+  display: flex;
+  width: 200px;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+.Linkk {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 200px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+
+  color: #cfcfcf;
+  background: transparent;
+
+  transition: all 0.25s ease;
+}
+
+.Linkk a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Linkk:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  transform: translateX(5px);
+}
+.logo img{
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
 }
