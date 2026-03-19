@@ -1,0 +1,94 @@
+.task-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background: var(--bg-secondary);
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.task-form h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--text-secondary);
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  outline: none;
+  transition: 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #6366f1;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.checkbox-group label {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-with-btn {
+  display: flex;
+  gap: 8px;
+}
+
+.input-with-btn button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.submit {
+  background: #10b981;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+.cancel {
+  background: #ef4444;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+}
