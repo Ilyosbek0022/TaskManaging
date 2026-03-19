@@ -910,4 +910,6 @@ align-items: center;
   height: 80px;
   width: 80px;
   border-radius: 10px;
+}.bsk-btn{
+  background-color: var(--bg-tertiary);
 }
