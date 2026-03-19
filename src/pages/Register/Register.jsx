@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {  useNavigate } from 'react-router-dom'
+import {  Link, useNavigate } from 'react-router-dom'
 import "../../componentsforcss/login.css"
 const Login = () => {
   const [name,seTname]=useState("")
@@ -12,6 +12,9 @@ const Login = () => {
    }
   return (
     <div className='flex justify-center align-baseline'>
+      <Link to={"/"}>
+      <button className='bsk-btn'>Home</button>
+      </Link>
      
 <div className="form-box">
 <form className="form" onSubmit={toogle}>

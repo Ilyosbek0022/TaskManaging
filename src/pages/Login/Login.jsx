@@ -12,7 +12,7 @@ const Login = () => {
    }
   return (
     <div className='flex justify-center align-baseline'>
-     
+     <Link to={"/"}><button className='bsk-btn'>Home</button></Link>
 <div className="form-box">
 <form className="form" onSubmit={toogle}>
     <span className="title">Sign up</span>

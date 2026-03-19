@@ -35,9 +35,10 @@ export default function Home() {
   <div className="Linkk"><Link className="Linkk" to={"/Premium"}> <div className="phots"><AiOutlineDingding /> </div> <div className="thisn">Proshka</div></Link></div>
   <div className="Linkk"><Link className="Linkk" to={"/Register"}>  <div className="phots"><FaUserPlus /></div> <div className="thisn">Register</div></Link></div>
   <div className="Linkk"><Link className="Linkk" to={"/Addnew"}> <div className="phots"> <MdAdd /></div><div className="thisn">Add a task</div></Link></div>
+  <div className="Linkk"><Link className="Linkk" to={"/Profile"}> <div className="phots"> <FaUser /></div><div className="thisn">Profile</div></Link></div>
 </div>
 <div className="account ">
-  <ProfileCard/>
+  <Link to={"/Profile"}><ProfileCard/></Link>
 </div>
         </div>
 

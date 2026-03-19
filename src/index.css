@@ -809,9 +809,6 @@ body.dark-mode .icon-moon {
   max-width: 400px;
   width: fit-content;
   background-color: var(--bg-secondary);
-  
-  
-  
 }
 .text h1{
   cursor: pointer;
@@ -833,7 +830,16 @@ border:1px var(--border-color) ;
   margin-left: 260px;
 }
 @media(max-width:640px){
-  
+  .Linkk{
+    width: fit-content;
+  }
+  .bsk-btn{
+    padding: 10px;
+    width: 100px;
+  }
+  .Linkk:hover{
+    width: fit-content;
+  }
     .left-sided{
     width: 70px;
     padding: 2px;
@@ -845,6 +851,7 @@ border:1px var(--border-color) ;
   .left-sided{
     max-width: 100px;
   }
+  
   .main-background{
     justify-content: center;
   }
@@ -883,7 +890,7 @@ align-items: center;
   align-items: center;
   gap: 12px;
   width: 200px;
-  padding: 10px 14px;
+  
   border-radius: 12px;
   cursor: pointer;
 
@@ -913,4 +920,7 @@ align-items: center;
   border-radius: 10px;
 }.bsk-btn{
   background-color: var(--bg-tertiary);
+}
+.links{
+  gap: 20px;
 }

@@ -119,7 +119,7 @@ export default function Dashboardl() {
 </div>
 
 <div className="time-range">
-<span>Last 30 Days</span>
+<Link to={"/Login"}><span>Explore</span></Link>
 </div>
 
 </div>
